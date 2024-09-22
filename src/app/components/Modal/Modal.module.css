@@ -1,0 +1,75 @@
+/* Overlay to cover the whole screen */
+.modal_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Modal window */
+.modal_content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Header with title and close button */
+.modal_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.modal_header h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.modal_close_button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Modal body with radio options */
+.modal_body {
+    margin: 20px 0;
+}
+
+.modal_body p {
+    margin: 0 0 10px 0;
+}
+
+.label {
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+.radio_input[type='radio'] {
+    margin-right: 5px;
+}
+
+/* Footer with close button */
+.modal_footer {
+    display: flex;
+    justify-content: center;
+}
+
+.close_button {
+    background-color: transparent;
+    border: none;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
